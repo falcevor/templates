@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>TestCase</DefaultName>
+    <Name>TestCase</Name>
+    <Description>Test case template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+    <LocationField>Enabled</LocationField>
+    <CreateInPlace>true</CreateInPlace>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.case" ReplaceParameters="true">Description</ProjectItem>
+    <ProjectItem SubType="" ItemType="EmbeddedResource" TargetFileName="$fileinputname$.txt\$fileinputname$.Input" ReplaceParameters="true">Input</ProjectItem>
+    <ProjectItem SubType="" ItemType="EmbeddedResource" TargetFileName="$fileinputname$.txt\$fileinputname$.Output" ReplaceParameters="true">Output</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
