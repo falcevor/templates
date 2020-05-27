@@ -10,8 +10,8 @@
     <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem SubType="" TargetFileName="$fileinputname$.case" ReplaceParameters="true">Description</ProjectItem>
-    <ProjectItem SubType="" ItemType="EmbeddedResource" TargetFileName="$fileinputname$.txt\$fileinputname$.Input" ReplaceParameters="true">Input</ProjectItem>
-    <ProjectItem SubType="" ItemType="EmbeddedResource" TargetFileName="$fileinputname$.txt\$fileinputname$.Output" ReplaceParameters="true">Output</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$" ReplaceParameters="true">Description</ProjectItem>
+    <ProjectItem SubType="" ItemType="EmbeddedResource" TargetFileName="$fileinputname$\$fileinputname$.Input" ReplaceParameters="true">Input</ProjectItem>
+    <ProjectItem SubType="" ItemType="EmbeddedResource" TargetFileName="$fileinputname$\$fileinputname$.Output" ReplaceParameters="true">Output</ProjectItem>
   </TemplateContent>
 </VSTemplate>
